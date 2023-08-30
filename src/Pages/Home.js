@@ -1,6 +1,7 @@
 import Header from "../assets/components/Header"
 import styles from './Home.module.scss'
 import photoProfil from "../assets/images/photo profil (1).png"
+import Footer from "../assets/components/Footer"
 
 function Home() {
   return (
@@ -32,7 +33,7 @@ function Home() {
           <p className={styles.textContentHome}>La danse est une activité qui offre une combinaison unique d'énergie, d'interaction sociale, de coordination,
             d'expressivité, de condition physique et d'ouverture culturelle. Elle procure à la fois du plaisir, de la créativité et de
             nombreux bienfaits pour le corps et l'esprit.</p>
-          <div className="mt20 df fc jcc aic gap1">
+          <div className="mt20 df fc jcc aic gap1 mb50">
             <p>Voici ce que je vous propose au travers de mes cours :</p>
             <ul className="tac">
               <li>Travail des pas de base</li>
@@ -45,7 +46,13 @@ function Home() {
             <p>N’hésitez plus et venez réserver votre cours de danse*</p>
           </div>
           <button className={styles.btnResaCours}>Réservation cours</button>
+          <div className="pt50 pb20">
+            <p className={styles.asterix}>*possibilité d’annuler le cours gratuitement 24h avant la date réservée.</p>
+            <p className={styles.asterix}>*Toute annulation de ma part engendre un remboursement et un cours gratuit est offert si la réservation
+              a été faite au domicile et a été annulée moins de 48h avant.</p>
+          </div>
         </section>
+          <Footer/>
       </div>
     </>
   )

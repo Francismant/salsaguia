@@ -24,17 +24,24 @@
   .pb20 {
     padding-bottom: 20px;
   }
+
   .pb30 {
     padding-bottom: 30px;
   }
+
   .pt10 {
     padding-top: 10px;
   }
   .pt20 {
     padding-top: 20px;
   }
+
   .pt30 {
     padding-top: 30px;
+  }
+
+  .pt50 {
+    padding-top: 50px;
   }
   
   .m5 {
@@ -116,14 +123,25 @@
     margin: auto;
     width: 100%;
   }
+
   .gap5 {
     gap: 5%;
   }
+
+  .gap1 {
+    gap: 1rem;
+  }
+
   .gap2 {
     gap: 2rem;
   }
-  .gap1 {
-    gap: 1rem;
+
+  .gap3 {
+    gap: 3rem;
+  }
+
+  .gap4 {
+    gap: 4rem;
   }
 
   .gap10 {

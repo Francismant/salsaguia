@@ -20,9 +20,16 @@
 
 .btnResaCours {
     background-color: var(--text-color);
+    font-size: 1.2rem;
+    font-family: var(--font-family2);
     color: var(--blue);
     padding: 10px 25px;
     border-radius: 15px;
     cursor: pointer;
+    display: block;
+    margin: 0 auto;
 
+}
+.asterix {
+    font-size: 0.8rem;
 }

@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 function Header() {
   return (
-    <header className="colorHeader df fc gap2">
+    <header className="colorHeaderFooter df fc gap2">
       <div className="topHeader df aic jca">
         <img src={logo} alt="image représentant 2 danseurs" />
         <div className="df fc aic jce">
