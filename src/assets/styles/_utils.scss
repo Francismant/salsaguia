@@ -5,13 +5,17 @@
   .p10 {
     padding: 10px;
   }
-  
+
   .p20 {
     padding: 20px;
   }
   
   .p30 {
     padding: 30px;
+  }
+
+  .p50 {
+    padding: 50px;
   }
 
   .pb10 {
@@ -22,6 +26,15 @@
   }
   .pb30 {
     padding-bottom: 30px;
+  }
+  .pt10 {
+    padding-top: 10px;
+  }
+  .pt20 {
+    padding-top: 20px;
+  }
+  .pt30 {
+    padding-top: 30px;
   }
   
   .m5 {
@@ -115,6 +128,10 @@
 
   .gap10 {
     gap: 10rem;
+  }
+  
+  .gap15 {
+    gap: 15rem;
   }
 
   .gap20 {

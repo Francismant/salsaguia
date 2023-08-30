@@ -7,4 +7,22 @@
 
 .block {
     background-color: var(--colorBlock60);
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+
+.textContentHome {
+    padding: 2% 10% 0 10%;
+    line-height: 40px;
+}
+
+.btnResaCours {
+    background-color: var(--text-color);
+    color: var(--blue);
+    padding: 10px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+
 }

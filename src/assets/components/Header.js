@@ -4,10 +4,10 @@ import Navbar from "./Navbar";
 
 function Header() {
   return (
-    <header className="colorHeader d-flex flex-column gap2 mt20">
-      <div className="topHeader d-flex align-items-center justify-content-around">
+    <header className="colorHeader df fc gap2">
+      <div className="topHeader df aic jca">
         <img src={logo} alt="image représentant 2 danseurs" />
-        <div className="d-flex flex-column align-items-center justify-content-end">
+        <div className="df fc aic jce">
           <h1 className="textFamilyHeader">
             SalsaGuia...Cours particuliers et collectifs
           </h1>
